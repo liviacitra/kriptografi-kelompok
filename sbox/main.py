@@ -12,8 +12,8 @@ from utils.differential_approximation import calculate_dap
 from utils.entropy import compute_entropy
 from utils.bit_independence import calculate_bic_sac, calculate_bic_nl
 
-df = pd.read_excel("16x16_matrix.xlsx")
 def main():
+    df = pd.read_excel("16x16_matrix.xlsx")
     st.title('S-box44 Cryptographic')
 
     # Layout to center the file uploader on the page
